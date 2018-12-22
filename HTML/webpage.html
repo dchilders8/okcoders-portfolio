@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Week 6 Javascript Homework</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+	 crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+	 crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="../CSS/webpage.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	 crossorigin="anonymous">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+	 crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+	 crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="../CSS/webpage.css" />
+	<script type="text/javascript" src="../JavaScript/webpage.js"></script>
+	<style>
+		.jumbotron {
+			background-image: url("../Images/family.jpg");
+			background-size: cover;
+			height: 550px;
+			background-position: center;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="container-fluid">
+		<div class="wrapper">
+			<!-- Sidebar  -->
+			<nav id="sidebar">
+				<div class="sidebar-header">
+					<h3>Danny's Menu</h3>
+					<strong>DM</strong>
+				</div>
+
+				<ul class="list-unstyled components">
+					<li class="active">
+						<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+							<i class="fas fa-home"></i>
+							Family Story
+						</a>
+						<ul class="collapse list-unstyled" id="homeSubmenu">
+							<li>
+								<a href="../HTML/tori.html">Tori</a>
+							</li>
+							<li>
+								<a href="../HTML/greyson.html">Greyson</a>
+							</li>
+							<li>
+								<a href="../HTML/gabby.html">Gabby</a>
+							</li>
+							<li>
+								<a href="../HTML/olivia.html">Olivia</a>
+							</li>
+							<li>
+								<a href="../HTML/lilly.html">Lilly-Ann</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fas fa-briefcase"></i>
+							About
+						</a>
+						<a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><br>
+							<i class="fas fa-copy"></i>
+							Pages
+						</a>
+						<ul class="collapse list-unstyled" id="pageSubmenu">
+							<li>
+								<a href="../HTML/calculator.html">Calculator</a>
+							</li>
+						</ul><br>
+						<a href="../HTML/login.html">
+							<i class="fas fa-sign-out-alt"></i>
+							Logout
+						</a>
+					</li>
+				</ul>
+
+			</nav>
+
+			<!-- Page Content  -->
+			<div id="content">
+
+				<div id="Header">
+					<button type="button" id="sidebarCollapse" class="btn btn-info">
+						<i class="fas fa-align-left"></i>
+						<span>Toggle Sidebar</span>
+					</button>
+
+
+					<!--Title  -->
+					<h1><span class="blue">The</span><span class="green"> Childers</span><span class="red"> Family</span>
+						<span class="purple"> Story</span></h1>
+				</div>
+				<div class="jumbotron jumbotron-fluid">
+					<div class="container-fluid">
+					</div>
+				</div>
+				<center>
+					<h2 class="emphasized">This page is about my family and just how wonderful they are!</h2>
+				</center>
+
+
+				<!-- <div id="main"> -->
+				<p class="intro">My family consists of my wife Tori, my daughters Lilly-Ann, Gabby, and
+					Olivia, and my son Greyson.</p>
+
+
+				<!-- Tori -->
+				<div class="media">
+					<!--<a href="../html/tori.html" target="_blank">-->
+					<img class="mr-3" src="../Images/tori.jpg" alt="Tori">
+					</a>
+					<div class="media-body">
+						<h5 class="mt-0">Tori Childers</h5>
+						I met my wife one December night at Olive Garden. I remember when I walked into
+						the door and saw her for the first time, I just knew this was going to be a one
+						night date. She was absolutely stunning and I felt there was no way I was in her
+						league and that I was lucky to even be there. We ordered our dinner and to this
+						day I give her a hard time because she only ate 3 noodles. At the end of the night
+						she seemed to have enjoyed herself and sure enough I was able to secure another
+						date and eventually marriage.
+					</div>
+				</div>
+
+				<!-- Greyson -->
+				<div class="media">
+					<div class="media-body">
+						<h5 class="mt-0 mb-1">Greyson Alexander Kade Childers</h5>
+						Me and my wife chose this name because we both really liked it. My wife chose the
+						two middle names becasue she was named with two and felt that it was a good thing
+						to have her kids named like her. Greyson is our only boy and he is without a doubt
+						the sweetest boy a mom and dad could ask for. He loves video games and his favorite is
+						<span class="red">Super Mario Odysey!</span> Greyson could sit in front of the
+						television and play this game for hours on in. When Greyson is not consumed by
+						video games, he loves to be the roughest kid possible (I take no blame for this)!
+						He loves to wrestle with his Dad and his sisters on pretty much a non stop basis.
+						With this said he is without a doubt one of the sweetest and kindest kids you'll
+						ever meet!
+					</div>
+					<img class="ml-3" src="../Images/greyson.jpg" alt="Greyson">
+				</div>
+
+
+				<!-- Gabby -->
+				<div class="media">
+					<!--<a href="../html/tori.html" target="_blank">-->
+					<img class="mr-3" src="../Images/Gabby.jpg" alt="Gabby">
+					</a>
+					<div class="media-body">
+						<h5 class="mt-0">Gabrielle Sophia Elyse Childers</h5>
+						Gabby is our 7 year old little girl who is quickly growing up on us. She is a big
+						helper around our house, and loves to play with her American Girl dolls. Gabby can
+						be a bit sassy at times but overall she is a sweet little girl who mom and dad
+						loves very much. Gabby will be entering the 2nd grade this year and we know she's
+						excited to be moving on. Gabby's favorite thing to do is kick it with her Gram's!
+						Gabby loves to go over there and swim in her pool, go on what seem to be endless
+						shopping spree's and the countless lunch dates Grammy has with everybody.
+						Yep, Gabby and Grammy are two peas in a pod to say the least!</p>
+					</div>
+				</div>
+
+				<!-- Olivia           -->
+				<div class="media">
+					<div class="media-body">
+						<h5 class="mt-0 mb-1">Olivia Madeline Grace Childers</h5>
+						Oliva is our special little girl. Olivia was born several weeks early due to some
+						pregnancy complications with her momma. I'll never forget the night when what seemed
+						to be a SWAT team rushed into our hospital room and took my wife away in a blink
+						of an eye. I remember shortly after the doctors walking in and telling me to put a
+						gown on. Afterwards they escorted me to this other room and as they was doing so I
+						saw a baby crying on a table with nurses all around her. The nurse who was escorting
+						me asked me if I wanted to hold my little girl. With a puzzled look on my face I asked
+						her what she was talking about. The nurse explained that the little girl lying on the
+						table crying was in fact my daughter! Needless to say from that point on she has just
+						been the most amazing little girl and I wouldn't trade the experiances away for
+						anything.</p>
+					</div>
+					<img class="ml-3" src="../Images/olivia.jpg" alt="Olivia">
+				</div>
+
+				<!-- Lilly -->
+				<div class="media">
+					<!--<a href="../html/tori.html" target="_blank">-->
+					<img class="mr-3" src="../Images/lilly.jpg" alt="Lilly">
+					</a>
+					<div class="media-body">
+						<h5 class="mt-0">Lilly-Ann Love Childers</h5>
+						Lilly our oldest daughter and is 9 years old. Lilly is a very quiet and without a
+						doubt the shyest of the bunch (she gets that from her dad). Lilly splits time between
+						her moms house and our house. Lilly loves to play sports and currently plays softball
+						and basketball. When Lilly was born she was a CHUNKY MONKEY let me tell you. Lilly
+						was almost like a rolly polly when it came to her body type, but like all kids do
+						she began to fill out and grow vertically and is now a pretty tall little girl.
+						Lilly is a very sweet minded girl whom Daddy loves very much. I can't wait to watch
+						her grow up and to see what the future holds for her!</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

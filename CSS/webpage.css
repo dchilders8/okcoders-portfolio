@@ -1,0 +1,310 @@
+body {
+	font-family: "Comic sans MS", "Times New Roman", serif;
+	font-size: 1.0em;
+	color: darkslategray;
+	background-color: #70d8d8;
+}
+
+div#main {
+	font-family: script, "Comic sans MS", "Times New Roman", Times, serif;
+	font-size: .9em;
+	margin: 0 2em 0 2em;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Futura, 'URW Gothic L';
+}
+
+
+p {
+	font-family: "Comic sans MS", "Times New Roman", Times, serif;
+	font-size: 1.2em;
+}
+
+h1 {
+	font-size: 2em;
+	text-align: center;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px #ffffff;
+}
+
+p.important {
+	font-size: 1.5em;
+	font-weight: 900;
+}
+
+.emphasized {
+	font-style: italic;
+	margin-bottom: 35px;
+}
+
+.typewriter {
+	font-family: "Courier New", Courier, monospace;
+}
+
+.red {
+	color: F52540;
+}
+
+.purple {
+	color: #f525DD;
+}
+
+.blue {
+	color: #2525f5;
+}
+
+.yellow {
+	color: #f4ca41;
+}
+
+.green {
+	color: #019b34;
+}
+
+.spacing {
+	line-height: 1.2em;
+	letter-spacing: 0;
+	word-spacing: 0;
+	color: green;
+	text-align: justify;
+	font-size: 1em;
+}
+
+p.indent {
+	text-indent: 2em;
+}
+
+blockquote {
+	font-size: .85em;
+}
+
+.offset {
+	margin: 2em;
+}
+
+#booby {
+	color: orange;
+}
+
+.height {
+	margin-left: 2em;
+}
+
+.right {
+	text-align: right;
+}
+
+img.wrap {
+	float: left;
+	margin: 1em 0 0 0;
+	padding-right: 2em;
+}
+
+.top_space {
+	margin-top: 4em;
+}
+
+.container {
+	background: white;
+	max-width: 960px;
+	margin: 60px auto;
+	-webkit-box-shadow: 0px 0px 30px 0px #999;
+	box-shadow: 0px 0px 30px 0px #999;
+}
+
+.media img {
+	height: 200px;
+	width: 200px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.media {
+	margin-bottom: 40px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.intro {
+	margin-bottom: 40px;
+}
+
+.wrapper {
+	display: flex;
+	width: 100%;
+}
+
+#sidebar {
+	min-width: 200px;
+	max-width: 200px;
+	min-height: 100vh
+}
+
+
+/* Shrinking the sidebar from 250px to 80px and center aligining its content*/
+#sidebar.active {
+	min-width: 90px;
+	max-width: 90px;
+	text-align: center;
+}
+
+/* Toggling the sidebar header content, hide the big heading [h3] and showing the small heading [strong] and vice versa*/
+#sidebar .sidebar-header strong {
+	display: none;
+}
+
+#sidebar.active .sidebar-header h3 {
+	display: none;
+}
+
+#sidebar.active .sidebar-header strong {
+	display: block;
+}
+
+#sidebar ul li a {
+	text-align: left;
+}
+
+#sidebar.active ul li a {
+	padding: 20px 10px;
+	text-align: center;
+	font-size: 0.85em;
+}
+
+#sidebar.active ul li a i {
+	margin-right: 0;
+	display: block;
+	font-size: 1.8em;
+	margin-bottom: 5px;
+}
+
+/* Same dropdown links padding*/
+#sidebar.active ul ul a {
+	padding: 10px !important;
+}
+
+/* Changing the arrow position to bottom center position, 
+   translateX(50%) works with right: 50% 
+   to accurately  center the arrow */
+#sidebar.active .dropdown-toggle::after {
+	top: auto;
+	bottom: 10px;
+	right: 50%;
+	-webkit-transform: translateX(50%);
+	-ms-transform: translateX(50%);
+	transform: translateX(50%);
+}
+
+@media (max-width: 768px) {
+
+	/* 80px and its content aligned to centre. Pushing it off the screen with the
+       negative left margin
+    */
+	#sidebar.active {
+		min-width: 80px;
+		max-width: 80px;
+		text-align: center;
+		margin-left: -80px !important;
+	}
+
+
+	/* Reappearing the sidebar on toggle button click */
+	#sidebar {
+		margin-left: 0;
+	}
+
+
+	/* Toggling the sidebar header content, 
+       hide the big heading [h3] and showing the small heading [strong] and vice versa
+    */
+	#sidebar .sidebar-header strong {
+		display: none;
+	}
+
+	#sidebar.active .sidebar-header h3 {
+		display: none;
+	}
+
+	#sidebar.active .sidebar-header strong {
+		display: block;
+	}
+
+	/* Downsize the navigation links font size */
+	#sidebar.active ul li a {
+		padding: 20px 10px;
+		font-size: 0.85em;
+	}
+
+	#sidebar.active ul li a i {
+		margin-right: 0;
+		display: block;
+		font-size: 1.8em;
+		margin-bottom: 5px;
+	}
+
+	/* Adjust the dropdown links padding*/
+	#sidebar.active ul ul a {
+		padding: 10px !important;
+	}
+
+	/* Changing the arrow position to bottom center position, 
+      translateX(50%) works with right: 50% 
+      to accurately  center the arrow */
+	.dropdown-toggle::after {
+		top: auto;
+		bottom: 10px;
+		right: 50%;
+		-webkit-transform: translateX(50%);
+		-ms-transform: translateX(50%);
+		transform: translateX(50%);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////
+
+
+
+
+
+.clear {
+	clear: both;
+}
+
+button {
+	padding: 5px 10px 5px 10px;
+	margin: 5px;
+}
+
+button.zeroButton {
+	width: 78px;
+}
+
+.spacer {
+	margin-left: 46px;
+}

@@ -1,0 +1,139 @@
+body {
+	font-family: "Comic sans MS", "Times New Roman", serif;
+	font-size: 1.0em;
+	color: darkslategray;
+	background-color: #70d8d8;
+}
+
+div#main {
+	font-family: script, "Comic sans MS", "Times New Roman", Times, serif;
+	font-size: .9em;
+	margin: 0 2em 0 2em;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Futura, 'URW Gothic L';
+}
+
+
+p {
+	font-family: "Comic sans MS", "Times New Roman", Times, serif;
+	font-size: 1.2em;
+}
+
+h1 {
+	font-size: 2em;
+	text-align: center;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px #ffffff;
+}
+
+p.important {
+	font-size: 1.5em;
+	font-weight: 900;
+}
+
+.emphasized {
+	font-style: italic;
+	margin-bottom: 35px;
+}
+
+.typewriter {
+	font-family: "Courier New", Courier, monospace;
+}
+
+.red {
+	color: F52540;
+}
+
+.purple {
+	color: #f525DD;
+}
+
+.blue {
+	color: #2525f5;
+}
+
+.yellow {
+	color: #f4ca41;
+}
+
+.green {
+	color: #019b34;
+}
+
+.spacing {
+	line-height: 1.2em;
+	letter-spacing: 0;
+	word-spacing: 0;
+	color: green;
+	text-align: justify;
+	font-size: 1em;
+}
+
+p.indent {
+	text-indent: 2em;
+}
+
+blockquote {
+	font-size: .85em;
+}
+
+.offset {
+	margin: 2em;
+}
+
+#booby {
+	color: orange;
+}
+
+.height {
+	margin-left: 2em;
+}
+
+.right {
+	text-align: right;
+}
+
+img.wrap {
+	float: left;
+	margin: 1em 0 0 0;
+	padding-right: 2em;
+}
+
+.top_space {
+	margin-top: 4em;
+}
+
+.container {
+	background: white;
+	max-width: 960px;
+	margin: 60px auto;
+	-webkit-box-shadow: 0px 0px 30px 0px #999;
+	box-shadow: 0px 0px 30px 0px #999;
+}
+
+.media img {
+	height: 200px;
+	width: 200px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.media {
+	margin-bottom: 40px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.intro {
+	margin-bottom: 40px;
+}
+
+.input {
+	margin-bottom: 80px;
+}
+
